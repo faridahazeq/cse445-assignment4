@@ -9,10 +9,10 @@ namespace ConsoleApp1
 {
     public class Submission
     {
-        // Using local files for testing
-        public static string xmlURL = "NationalParks.xml";
-        public static string xmlErrorURL = "NationalParksErrors.xml";
-        public static string xsdURL = "NationalParks.xsd";
+        // GitHub Pages URLs for Assignment 4
+        public static string xmlURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParks.xml";
+        public static string xmlErrorURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParksErrors.xml";
+        public static string xsdURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParks.xsd";
 
         public static void Main(string[] args)
         {
