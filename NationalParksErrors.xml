@@ -27,7 +27,7 @@
     <!-- Missing closing Address tag -->
   </NationalPark>
   <NationalPark Rating="4.7">
-    <!-- Error 5: Two names provided -->
+    <!-- Error 5: Two names provided for one national park -->
     <Name>Yosemite</Name>
     <Name>Yosemite National Park</Name>
     <Phone>209-372-0200</Phone>

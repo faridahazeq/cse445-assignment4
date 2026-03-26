@@ -9,22 +9,18 @@ namespace ConsoleApp1
 {
     public class Submission
     {
-        // GitHub Pages URLs for Assignment 4
         public static string xmlURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParks.xml";
         public static string xmlErrorURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParksErrors.xml";
         public static string xsdURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParks.xsd";
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("=== Testing Valid XML ===\n");
             string result = Verification(xmlURL, xsdURL);
             Console.WriteLine(result);
 
-            Console.WriteLine("\n=== Testing Invalid XML ===\n");
             result = Verification(xmlErrorURL, xsdURL);
             Console.WriteLine(result);
 
-            Console.WriteLine("\n=== Converting XML to JSON ===\n");
             result = Xml2Json(xmlURL);
             Console.WriteLine(result);
         }
@@ -96,7 +92,6 @@ namespace ConsoleApp1
 
         private static string DownloadContent(string url)
         {
-            // Check if it's a local file path
             if (!url.StartsWith("http://") && !url.StartsWith("https://"))
             {
                 return File.ReadAllText(url);

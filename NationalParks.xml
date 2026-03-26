@@ -5,7 +5,7 @@
     <Phone>928-638-7496</Phone>
     <Phone>888-297-2757</Phone>
     <Phone>866-499-2574</Phone>
-    <Address NearestAirport="Flagstaff">
+    <Address NearestAirport="FlagStaff">
       <Number>8</Number>
       <Street>S Entrance Road</Street>
       <City>Grand Canyon</City>
@@ -40,7 +40,7 @@
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
     <Phone>435-772-0170</Phone>
-    <Address NearestAirport="St. George">
+    <Address NearestAirport="St George">
       <Number>1</Number>
       <Street>Zion National Park</Street>
       <City>Springdale</City>
