@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Error 1: Root element name is NationalPark instead of NationalParks -->
 <NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NationalParks.xsd">
-  
-  <!-- Error 2: Missing required Rating attribute -->
   <NationalPark>
     <Name>Grand Canyon</Name>
-    <!-- Error 3: Missing Phone element -->
     <Address>
       <Number>8</Number>
       <Street>S Entrance Road</Street>
@@ -14,8 +10,6 @@
       <Zip>86023</Zip>
     </Address>
   </NationalPark>
-  
-  <!-- Error 4: Address element has no closing tag -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
@@ -26,10 +20,7 @@
       <City>Yellowstone NP</City>
       <State>WY</State>
       <Zip>82190</Zip>
-    <!-- Missing closing </Address> tag -->
   </NationalPark>
-  
-  <!-- Error 5: Two names provided for one national park -->
   <NationalPark Rating="4.7">
     <Name>Yosemite</Name>
     <Name>Yosemite National Park</Name>
@@ -42,5 +33,4 @@
       <Zip>95389</Zip>
     </Address>
   </NationalPark>
-  
 </NationalPark>
