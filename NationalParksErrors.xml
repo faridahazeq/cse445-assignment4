@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-              xsi:schemaLocation="https://raw.githubusercontent.com/faridahazeq/cse445-assignment4/main/NationalParks.xsd">
-  <NationalPark>
-    <Name>Grand Canyon</Name>
-    <Address>
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
-    </Address>
-  </NationalPark>
-  <NationalPark Rating="4.8">
-    <Name>Yellowstone</Name>
-    <Phone>307-344-7381</Phone>
-    <Phone>307-344-2011</Phone>
-    <Address>
-      <Number>2</Number>
-      <Street>Yellowstone National Park</Street>
-      <City>Yellowstone NP</City>
-      <State>WY</State>
-      <Zip>82190</Zip>
-  </NationalPark>
-  <NationalPark Rating="4.7">
-    <Name>Yosemite</Name>
-    <Name>Yosemite National Park</Name>
-    <Phone>209-372-0200</Phone>
-    <Address>
-      <Number>9035</Number>
-      <Street>Village Drive</Street>
-      <City>Yosemite National Park</City>
-      <State>CA</State>
-      <Zip>95389</Zip>
-    </Address>
-  </NationalPark>
-</NationalPark>
-<?xml version="1.0" encoding="UTF-8"?>
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-              xsi:schemaLocation="https://raw.githubusercontent.com/faridahazeq/cse445-assignment4/main/NationalParks.xsd">
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/faridahazeq/cse445-assignment4/main/NationalParks.xsd">
   <NationalPark>
     <Name>Grand Canyon</Name>
     <Address>
