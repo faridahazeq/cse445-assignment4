@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Xml.Schema;
 using System.Xml;
 using Newtonsoft.Json;
@@ -9,9 +9,9 @@ namespace ConsoleApp1
 {
     public class Submission
     {
-        public static string xmlURL = "https://raw.githubusercontent.com/faridahazeq/cse445-assignment4/main/NationalParks.xml";
-        public static string xmlErrorURL = "https://raw.githubusercontent.com/faridahazeq/cse445-assignment4/main/NationalParksErrors.xml";
-        public static string xsdURL = "https://raw.githubusercontent.com/faridahazeq/cse445-assignment4/main/NationalParks.xsd";
+        public static string xmlURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParks.xml";
+        public static string xmlErrorURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParksErrors.xml";
+        public static string xsdURL = "https://faridahazeq.github.io/cse445-assignment4/NationalParks.xsd";
 
         public static void Main(string[] args)
         {
@@ -92,11 +92,6 @@ namespace ConsoleApp1
 
         private static string DownloadContent(string url)
         {
-            if (!url.StartsWith("http://") && !url.StartsWith("https://"))
-            {
-                return File.ReadAllText(url);
-            }
-            
             using (System.Net.WebClient client = new System.Net.WebClient())
             {
                 return client.DownloadString(url);
