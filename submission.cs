@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Xml.Schema;
 using System.Xml;
 using Newtonsoft.Json;
